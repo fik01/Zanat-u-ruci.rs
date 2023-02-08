@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+
+    background-color: #ff7700;
+    height: 60px;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+.header img{
+
+    height: 50px;
+    margin-top: -10px;
+}
+
+.header ul li{
+
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.home-section{
+
+    background-image: url("../images/home.jpg");
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-section .RGBA{
+
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.home-section h1{
+
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 200px; 
+}
+
+.home-section p{
+
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+ .home-section ul li{
+
+    text-align: center;
+    list-style: none;
+    padding-top: 25px; 
+}
+
+.home-section ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #ff7700;
+    border: 1px solid #ff7700;
+    padding: 10px;  
+}
+
+.home-section ul li a:hover{
+
+    background-color: transparent;
+    transition: 0.2s;
+    color: #ff7700;
+}
+
+.Works{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Works .TargetPic{
+
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.Works h3{
+
+    color: #ff7700;
+    text-align: center;
+    font-size: 26px;
+}
+
+.Works p{
+
+    color: #88837e;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.Works a{
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.Works a:hover{
+
+    background-color: #ff7700;
+    border: 1px solid #ff7700;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.Works .Molerski {
+
+    background-image: url(../images/Moler.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.Works .Keramičarski{
+
+    background-image: url(../images/Keramičar.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.Works .Električarski{
+
+    background-image: url(../images/Električar.jpg);
+    height:300px;
+    background-position: right;
+    background-size: cover;
+    padding: 10px;
+}
+
+.Works .Klima{
+
+    background-image: url(../images/Klima.jpg);
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.Works .Hidro{
+
+    background-image: url(../images/Hidro.jpg);
+    height:300px;
+    background-position: left;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.Works .Parketarski{
+
+    background-image: url(../images/Parket.jpg);
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.Works .Grejanje{
+
+    background-image: url(../images/Grejanje.jpg);
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.Works .Krovni{
+
+    background-image: url(../images/Krov.jpg);
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.Works .Vodo{
+
+    background-image: url(../images/Vodoinstalater.jpg);
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.pre-Add .TargetPic{
+
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pre-Add h3{
+
+    color: #ff7700;
+    text-align: center;
+    font-size: 26px;
+}
+
+.pre-Add p{
+
+    color: #88837e;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.Add{
+    background-image: url(../images/Error.jpg);
+    height: 1000px;
+    background-size: cover;
+}
+
+.Add h3{
+
+    color: #ff7700;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+.Add p{
+
+    color: #474746;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Add .TargetBtn{
+
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.Add a{
+    
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7700; 
+    padding: 10px; 
+    font-size: 16px;
+}
+
+.Add a:hover{
+
+    color: #ff7700;
+    background-color: transparent;
+    border: 1px solid #ff7700;
+    transition: 0.2s;
+}
+
+.footer{
+
+    background-color: #232320;
+    height: 100px;
+    border: 1px solid #fff;
+}
+
+.footer p{
+
+    margin-top: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer ul li{
+
+    display: inline-block;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
