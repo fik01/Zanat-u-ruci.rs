@@ -1,2 +1,2 @@
 # Zanat-u-ruci.rs
-Implementacija frontend početne stranice. Korišćen HTML i CSS.
+Koncepcija i implementacija frontend početne stranice. Korišćen HTML i CSS.
